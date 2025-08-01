@@ -741,18 +741,12 @@ select.form-control {
 /* Slideshow specific styles */
 .slideshow-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--color-bg-7), var(--color-bg-5)); /* Beautiful gradient */
+  background: linear-gradient(135deg, var(--color-bg-7), var(--color-bg-5));
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;           /* Vertically center content */
   padding: var(--space-24) var(--space-16);
-  border-radius: var(--radius-md);   /* Match placeholder border radius */
-  box-shadow: 0 8px 32px rgba(0,0,0,0.14); /* Soft shadow for focus */
-  /* Optional for desktop layouts: */
-  max-width: 1200px;                 /* Prevent container from stretching too far */
-  margin: auto;                      /* Center in the viewport */
-}
+} 
 
 .slideshow-header {
   text-align: center;
